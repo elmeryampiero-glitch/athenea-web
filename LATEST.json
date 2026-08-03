@@ -1,0 +1,17 @@
+{
+  "version": "6.7.2-beta",
+  "estado": "Beta",
+  "build": "2026-08-02 19:23 (Lima)",
+  "commit": "408ed05",
+  "ultima_mision": "FASE 4.1 abierta — segundo Capability Pack. Las siete garantías están en pie y el sistema está preparado, pero CAP-002 todavía no existe: 1 de 6 productos entregado",
+  "urls": {
+    "web": "https://elmeryampiero-glitch.github.io/athenea-web/",
+    "repositorio": "https://github.com/elmeryampiero-glitch/Elmersuarez",
+    "releases": "https://github.com/elmeryampiero-glitch/Elmersuarez/releases",
+    "latest": "https://github.com/elmeryampiero-glitch/Elmersuarez/releases/latest",
+    "apk": "https://github.com/elmeryampiero-glitch/Elmersuarez/releases/download/wallpaper-apk/athenea.apk",
+    "desktop": "https://github.com/elmeryampiero-glitch/Elmersuarez/releases/download/wallpaper-apk/athenea-app.html",
+    "instalador_windows": "https://github.com/elmeryampiero-glitch/Elmersuarez/releases/download/wallpaper-apk/instalar-athenea.bat",
+    "latest_json": "https://elmeryampiero-glitch.github.io/athenea-web/LATEST.json"
+  }
+}

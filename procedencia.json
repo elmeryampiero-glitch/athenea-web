@@ -1,0 +1,23 @@
+{
+ "source_sha": "5a8b84538caec18f9e28dfec8e8d03404fe39df2",
+ "rama": "claude/wallpaper-obsidian-growth-b812tx",
+ "build_sha": "1ac0db9331b66904af47fc3ba7a9eb01be97c3b2e2e0c515fd8e12f1858e0efa",
+ "flujo_run_id": "30774398937",
+ "despliegue": "commit hu\u00e9rfano \u00fanico en athenea-web; su mensaje lleva origen y artefacto",
+ "artefactos": {
+  ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "LATEST.json": "492b79cae9c3803f9218261c225b7ce5e54c4a8a83a86bf60bdc936627891af1",
+  "README.md": "342e0d77d4453c30d2d500d800ef50a440105a8a24d45f9ca7faca6e80bc4c6d",
+  "actualizar.html": "2ee11c289e4b74b602b485d47a3f3a16a3c2c0f3e935f116ce753de499ac3018",
+  "articulo.html": "80945a94e01db57a1e5b44e3db1a5e27e4c3b5bea4d885a16f3706325595a46c",
+  "articulo.pdf": "6c4150f2a413a315bf8a81c616b2ac7d8478fd6ee646137e48e5f573309b554a",
+  "boletin.html": "50b6b79b73249ac544d1940230850e866b538d9a14615bbef607a0c7030416b9",
+  "cerebro.html": "00e301645fc16e49471b299df6fca0124e96f0ddd73304f44f3a4e81934b4929",
+  "icon-192.png": "358d11fe4f065cec48044342122f2e731e4554c22a5289f35b12fce412e32e5c",
+  "icon-512.png": "f4fb10b24ed6ea80812de41a3ae8340b71a1c8350cce8818be47b3ba880b07c4",
+  "index.html": "e723a399194bd928f6f15744e20d6c3763d4660764e344f61b1e2767eb7c4b73",
+  "manifest.json": "789f17355ec181efed21cffc2c8530623063263cfd880ea16e381f8109c52257",
+  "release.json": "c912336c2373b9bc27b1945476bfb2fe84ba5c101a2d9e80882362e5a0942eac",
+  "sw.js": "60b151593feb1dfb7eb556a00e009d991101bdbbf0302e4122700d7c38800629"
+ }
+}

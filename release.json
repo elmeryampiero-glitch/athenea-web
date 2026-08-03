@@ -1,0 +1,522 @@
+{
+  "version": "6.7.2-beta",
+  "estado": "Beta",
+  "ultima_mision": "FASE 4.1 abierta — segundo Capability Pack. Las siete garantías están en pie y el sistema está preparado, pero CAP-002 todavía no existe: 1 de 6 productos entregado",
+  "proxima_mision": "BRAIN-002 EN EJECUCIÓN — expediente piloto [B] CASO-01 (Exp. EXPC-01), decidido por el Director el 24-07-2026",
+  "plataformas": [
+    {
+      "nombre": "Web",
+      "estado": "EN PRODUCCIÓN — elmeryampiero-glitch.github.io/athenea-web",
+      "ok": true
+    },
+    {
+      "nombre": "Android",
+      "estado": "APK único ATHENEA: app completa + fondo opcional",
+      "ok": true
+    },
+    {
+      "nombre": "Desktop",
+      "estado": "Instalador único: app + fondo opcional",
+      "ok": true
+    },
+    {
+      "nombre": "Tablet",
+      "estado": "Mismo archivo, responsive",
+      "ok": true
+    },
+    {
+      "nombre": "Laptop",
+      "estado": "Instalador único: app + fondo opcional",
+      "ok": true
+    },
+    {
+      "nombre": "PWA",
+      "estado": "Instalable desde la URL de producción",
+      "ok": true
+    }
+  ],
+  "enlaces": [
+    {
+      "nombre": "URL Producción",
+      "url": "https://elmeryampiero-glitch.github.io/athenea-web/",
+      "nota": "El aplicativo oficial — se actualiza solo con cada release"
+    },
+    {
+      "nombre": "URL Preview (Web)",
+      "url": "https://claude.ai/code/artifact/b6fc0678-eb41-4d6d-91d5-8d7f7cbfc5c4",
+      "nota": "Aplicativo consolidado"
+    },
+    {
+      "nombre": "URL Staging (Release)",
+      "url": "https://github.com/elmeryampiero-glitch/Elmersuarez/releases/tag/wallpaper-apk",
+      "nota": "Todos los builds"
+    },
+    {
+      "nombre": "APK Android",
+      "url": "https://github.com/elmeryampiero-glitch/Elmersuarez/releases/download/wallpaper-apk/athenea.apk",
+      "nota": "APK único: app + fondo"
+    },
+    {
+      "nombre": "Desktop Build",
+      "url": "https://github.com/elmeryampiero-glitch/Elmersuarez/releases/download/wallpaper-apk/athenea-app.html",
+      "nota": "Auto-actualizable"
+    },
+    {
+      "nombre": "Repositorio",
+      "url": "https://github.com/elmeryampiero-glitch/Elmersuarez/tree/claude/wallpaper-obsidian-growth-b812tx",
+      "nota": "Rama de desarrollo"
+    }
+  ],
+  "roadmap": {
+    "completadas": [
+      "Kernel cognitivo: Discovery, Contradiction, Reasoning, Learning, Memory, Value",
+      "Sprint 001 — Tenant Engine (multi-tenant, Kernel compartido)",
+      "Sprint 002 — Dossier Operating System (Guardián de Plazos)",
+      "Sprint 003 — Legal Workspace",
+      "Mission 001 — Home Experience",
+      "Mission 002 — Dossier Overview",
+      "BRAIN-001 — Brain Connector (Context Package)",
+      "PRODUCT CONSOLIDATION v1.0.0-beta — aplicativo unificado",
+      "PRODUCT-000 — Release Center",
+      "PRODUCT-001 — Discovery, auditoría integral (6 suites) y saneamiento",
+      "MISSION 003 — Web pública en producción (GitHub Pages)",
+      "PWA — app instalable con ícono propio y modo offline",
+      "PRODUCT-003 — Una sola aplicación (wallpaper integrado como capacidad opcional)",
+      "BRAIN CONSTITUTION v1.0 + RFC-004 Cognitive Learning Protocol",
+      "BOOTSTRAP — árbol constitucional (13 docs + registro RFC)",
+      "RFC-005 — 16 clases de Objetos Cognitivos + Cognitive Control 7 niveles",
+      "RFC-006 — Estados constitucionales del conocimiento (v10)",
+      "AIP-001 — Litigation Command Center (pantalla única de operaciones)",
+      "FASE 2 — Brain Visualization + Dashboard de Modelos + Brain Health (vista Brain 360)",
+      "FASE 3 — 6 temas visuales (Temple, Neural, Atlas, Galaxy, Phoenix, Library) + Editorial con aprobación del Director",
+      "CEP — Cognitive Evolution Protocol (Constitución 017): sistema operativo del Brain",
+      "BOS — Brain Operating System (Constitución 018): 17 nodos, 13 conectores, Puentes de Razonamiento",
+      "BOS §IV-V — conectores con significado (13 tipos, 3 notaciones) y Puentes de Razonamiento, visibles en Brain 360",
+      "MASTER_ARCHITECT — Constitución Técnica Oficial: 45/45 Libros",
+      "PATCH 3.1 — conector completo, cadenas argumentativas, Gap Analysis Engine, Evolution Log y Cognitive Evolution Center (5 paneles)",
+      "PATCH 3.2 — Reasoning Trace Engine (15 pasos, 5 bandas, explicabilidad) + panel Razonamiento + primera traza real",
+      "EVOLUTION PATCH v5.0 — consolidación: evolución integrada en sus Libros + mapa terminológico + registro único (16/16)",
+      "EVOLUTION PATCH v5.1 — especificación de arquitectura empresarial + modelo de capas con Brand Layer / White Label (9/9)",
+      "Constitución 019 — LEX-OS: protocolo oficial de ingreso registrado con sus 4 documentos íntegros",
+      "LEX-OS v2.0 — tipificación automática de enlaces + cobertura argumental (16/16)",
+      "Reorganización del Brain — nodos de desarrollo cognitivo por expediente/caso + cadenas LEX-OS (10/10)",
+      "Unificación LEX-OS ↔ ATHENEA — el protocolo se vuelve módulo del Cognitive Engine (22/22)",
+      "EVOLUTION PATCH v5.3 — Knowledge Growth Experience: patrimonio primero, Ley del Crecimiento Visible (32/32)",
+      "EVOLUTION PATCH v5.4 — Cognitive Legal Observatory: 20 fuentes, 16 preguntas obligatorias, impacto transversal y reprocesamiento (18/18)"
+    ],
+    "en_desarrollo": [],
+    "pendientes": [
+      "Autorizar el acceso de red del Observatorio Cognitivo Jurídico (hoy 0 de 20 fuentes conectadas) — decisión del Director",
+      "MASTER_ARCHITECT — evolución permanente (Libro XLV: enmiendas por mandato o RFC)",
+      "Crear en la bóveda las notas de los 14 nodos de desarrollo cognitivo (hoy existen como ejes del grafo)",
+      "Cola de tipificación asistida para las 616 aristas argumentales pendientes (confirmación del Director)",
+      "Alta de marcas adicionales (Centro Nacional de Arbitraje, Legal Intelligence Platform, Campus Jurídico) — configuración, no desarrollo",
+      "BRAIN-002 — Consultas al Cerebro desde Home y Dossier",
+      "Workspace como pantalla propia",
+      "Executive Office como pantalla propia",
+      "Editorial Office como pantalla propia",
+      "Client Portal"
+    ]
+  },
+  "changelog": [
+    {
+      "version": "6.7.2-beta",
+      "fecha": "2026-08-02",
+      "cambios": "CAP-LEX-APPWALL-002 — FONDO NATIVO SIN PANTALLAS NEGRAS. El wallpaper ya no depende del WebView: el Engine pinta con Canvas nativo una imagen real de ATHENEA LIVE (last-known-good en almacenamiento privado → respaldo empaquetado en el APK → emblema), con center-crop, redibujo en cada evento de superficie y sustitución atómica validada — una captura vacía jamás reemplaza un frame bueno. El WebView queda solo como productor de capturas frescas cada 6 h, fuera del Surface. La app, si falla su carga, muestra un error legible con causa y reintento — nunca un lienzo negro mudo. Un solo icono, un solo APK, misma firma: instala 6.7.2 encima de 6.7.1 y vuelve a tocar ACTIVAR FONDO ATHENEA."
+    },
+    {
+      "version": "6.7.1-beta",
+      "fecha": "2026-08-02",
+      "cambios": "CAP-LEX-WALL-001 — ACTIVACIÓN GUIADA DEL FONDO. El APK detecta con el sistema (WallpaperManager) si el fondo ATHENEA está activo; si no, ofrece UNA acción («ACTIVAR FONDO ATHENEA») que abre directamente la previsualización nativa — la confirmación final es tuya, Android no permite menos. Deep link athenea://activar-wallpaper. El wallpaper vuelve a tener canal vivo (el sitio público sellado; el raw murió con la privatización) y una composición nativa del emblema garantiza que la superficie nunca sea negra. El aplicativo se actualiza por release, con la misma firma: instala encima, sin desinstalar. Guía breve: instala athenea.apk → ábrela → toca ACTIVAR FONDO ATHENEA → «Establecer fondo de pantalla». Si no aparece la oferta, Configuración → Activar."
+    },
+    {
+      "version": "5.7.0-beta",
+      "fecha": "2026-07-25",
+      "cambios": "EVOLUTION PATCH v5.4 — COGNITIVE LEGAL OBSERVATORY. Por mandato del Director, el Legal Research Engine (Libro XVI) se extiende hacia afuera. NO se construyó un lector de noticias, NI un scraper documental, NI un repositorio de normas, NI un monitor pasivo: el Observatorio existe para HACER EVOLUCIONAR el patrimonio. Nuevo módulo brain/observatorio.py (18/18 pruebas). (1) UNIVERSO DE FUENTES: 20 fuentes declaradas con clase y autoridad — cinco normativas (El Peruano, Congreso, boletines oficiales, cambios regulatorios, normativa internacional), cinco jurisprudenciales (Poder Judicial, Tribunal Constitucional, Corte Suprema, Cortes Superiores, jurisprudencia), cuatro doctrinales (doctrina, libros, revistas especializadas, artículos científicos), tres administrativas (organismos reguladores, ministerios, entidades públicas), dos institucionales (opiniones institucionales, bases documentales) y una asistida (IA jurídica autorizada). (2) PIPELINE COGNITIVO: toda evidencia externa entra por la MISMA puerta que el conocimiento propio — LEX-OS —, se clasifica su fuerza vinculante, se evalúa contra el patrimonio real, se calcula su impacto transversal, se reprocesa y se alerta. No hay puerta lateral. (3) LAS 16 PREGUNTAS OBLIGATORIAS: ninguna evidencia se archiva sin responder qué objetos cognitivos toca, qué hipótesis confirma o refuta, qué tesis fortalece o debilita, qué modelos recalibra, qué expedientes afecta, qué estrategias cambia, qué productos deben actualizarse, qué servicios habilita, qué vacíos abre o cierra, qué contradicciones genera, qué líneas de investigación deriva, a qué clientes alcanza, qué plazos activa, qué publicaciones obliga a revisar, qué precedente desplaza y qué nivel de impacto tiene. (4) REPROCESAMIENTO OBLIGATORIO: reprocesar() recalibra automáticamente lo afectado; la PROMOCIÓN del conocimiento sigue siendo humana (RFC-006) y el Observatorio nunca decide (RFC-009). (5) IMPACTO TRANSVERSAL con nivel BAJO · MEDIO · ALTO · CRÍTICO calculado sobre lo que realmente se encontró en el grafo, jamás sobre una estimación. (6) PRIMERA EVALUACIÓN REAL sobre el expediente piloto: «Resolución Tres — Exp. EXP-01 · CASO-01» afecta 4 objetos cognitivos, 1 expediente y 1 estrategia; nivel de impacto MEDIO; fuerza indeterminado_pendiente_verificacion — la fuerza vinculante jamás se presume. (7) SÉPTIMO PANEL del Cognitive Evolution Center: «Observatorio Cognitivo Jurídico», con fuentes, clases y última evidencia evaluada. DECLARACIÓN HONESTA: estado_fuentes() informa 0 de 20 fuentes CONECTADAS, en pendiente_de_conexion, porque la captura automática exige acceso de red que debe autorizar el Director. El catálogo existe; la vigilancia automática todavía no. Nada se declara monitoreado sin estarlo. Dos defectos reales corregidos al probar: un falso positivo por coincidencia de nombres cortos (guardarraíl de longitud mínima) y una casación clasificada como conversación en LEX-OS (brain/lexos.py corregido, 22/22).",
+      "pantallas": [
+        "Evolución (Cognitive Evolution Center — 7.º panel)"
+      ],
+      "rutas": [],
+      "componentes": [
+        "brain/observatorio.py",
+        "brain/observatorio_tests.py",
+        "brain/lexos.py (modo() — documentos jurisdiccionales)",
+        "platform/evolution/ (7.º panel)",
+        "MASTER_ARCHITECT.md (Libro XVI §5 · XXIX §2 · mapa terminológico · registro)",
+        "MASTER_ARCHITECT_EVOLUTION_PATCH_v5.1.md (§5.3 · §6)"
+      ]
+    },
+    {
+      "version": "5.6.0-beta",
+      "fecha": "2026-07-24",
+      "cambios": "EVOLUTION PATCH v5.3 — KNOWLEDGE GROWTH EXPERIENCE. Patch exclusivamente de experiencia: NO se tocó el Cognitive Engine, ni el COS, ni los Servicios Cognitivos, ni el Knowledge Graph, ni el modelo cognitivo. ATHENEA deja de presentarse en torno a los archivos y pasa a presentarse como la plataforma que fortalece el Patrimonio Organizacional de organizaciones jurídicas. (1) HERO permanente: «ATHENEA · Plataforma Cognitiva de tu Organización Jurídica · Hoy tu organización sabe más que ayer». (2) PRIMER BLOQUE del panel: PATRIMONIO ORGANIZACIONAL con nivel de desarrollo (47.4%), porcentaje, tendencia (ascendente) y estado (En expansión); los documentos ya nunca aparecen primero. (3) CINCO DIMENSIONES calculadas desde datos reales: Patrimonio Organizacional, Cognitivo, Procesal, Estratégico y Comercial, más Madurez Cognitiva (nivel 3/5, justificada por la cobertura real de razonamiento) y Valor Organizacional; cada dimensión declara de qué dato proviene. (4) CRECIMIENTO visible: objetos cognitivos, relaciones, hipótesis, modelos, asuntos con desarrollo y aprendizajes. (5) BOTÓN PRINCIPAL «FORTALECER MI PATRIMONIO», que abre el CTA permanente «¿Qué deseas fortalecer hoy?» con seis opciones, cada una declarando su impacto organizacional esperado. (6) MENÚ en lenguaje de patrimonio: Crecimiento · Patrimonio · Conocimiento Aplicado · Aprendizaje · Capacidades · Evolución · Valor entregado. (7) ONBOARDING nuevo: «ATHENEA ayudará a tu organización a transformar su experiencia en Patrimonio Organizacional». (8) LANDING: plataforma cognitiva que incrementa el patrimonio y convierte experiencia en ventaja competitiva; eliminado del producto todo el lenguaje de archivo y de herramienta conversacional que el patch proscribe. (9) LEY DEL CRECIMIENTO VISIBLE registrada en el MASTER (Libro XXXVI §4) con seis reglas vinculantes para toda pantalla presente y futura. Verificación permanente: athenea/TESTS/ux_tests.py, 32/32 criterios de aceptación, incluida la prohibición del lenguaje de carga documental. Nota de numeración: el patch se denomina v5.3 por mandato; la versión del producto continúa su secuencia en 5.6.0-beta.",
+      "pantallas": [
+        "Crecimiento (Command Center con patrimonio primero)",
+        "Shell (hero, botón, menú, onboarding)"
+      ],
+      "rutas": [],
+      "componentes": [
+        "platform/patrimonio/patrimonio.py",
+        "platform/command/ (primer bloque)",
+        "app/app_template.html",
+        "athenea/TESTS/ux_tests.py",
+        "MASTER_ARCHITECT.md (Libro XXXVI §4)",
+        "README.md (landing)"
+      ]
+    },
+    {
+      "version": "5.5.0-beta",
+      "fecha": "2026-07-24",
+      "cambios": "LEX-OS UNIFICADO CON ATHENEA (Constitución 019 §IX). Por mandato del Director, LEX-OS deja de ser un protocolo JUNTO a ATHENEA y pasa a ser un módulo DENTRO de su Cognitive Engine: brain/lexos.py (22/22 pruebas). Las reglas ya no son texto que alguien deba recordar, son código que se ejecuta igual siempre: modo() distingue conversación (Modo A, automático) de documento (Modo B, orden expresa); estado_cierre() hace IMPOSIBLE devolver ingreso_completo sin original y devuelve pendiente_de_ingreso cuando el conector no escribe, de modo que el sistema no puede afirmar que guardó algo que no guardó; huella() calcula el SHA-256 para identidad y duplicados; clasificar_fuerza() aplica la tabla jurisprudencial peruana y, sin declaración expresa, devuelve indeterminado_pendiente_verificacion — la fuerza vinculante jamás se presume — y aplica automáticamente los Arts. VI y 15 NCPCo para que una improcedencia sin pronunciamiento de fondo nunca se registre como cosa juzgada constitucional; validar_regla() exige los campos mínimos de la regla atómica, rechaza clases no admitidas e impide que una inferencia de IA se dé por aprobada; ingresar() compone el acto completo y emite el reporte breve que ADVIERTE cuando no hay ingreso completo. En el modelo de capas, LEX-OS ocupa el Servicio Cognitivo de Ingesta: la puerta única del patrimonio. El texto del Director conserva su autoridad íntegra: la automatización implementa sus reglas, no las relaja.",
+      "pantallas": [],
+      "rutas": [],
+      "componentes": [
+        "brain/lexos.py",
+        "brain/lexos_tests.py",
+        "athenea/CONSTITUTION/019 §IX",
+        "MASTER_ARCHITECT.md",
+        "MASTER_ARCHITECT_EVOLUTION_PATCH_v5.1.md §5.2"
+      ]
+    },
+    {
+      "version": "5.4.0-beta",
+      "fecha": "2026-07-24",
+      "cambios": "REORGANIZACIÓN DEL BRAIN con los protocolos aprobados (Constitución 019 §VIII.4). Nuevo módulo brain/reorganizador.py (10/10) que reordena el grafo conectando SOLO lo que los propios protocolos obligan a conectar, por estructura y jamás por semejanza temática. (1) CADENAS LEX-OS: se completó el enlace faltante entre piezas de una misma obra (TEXTO→FICHA→REGLAS) con su tipo ORIGINA/DERIVA. (2) NODOS DE DESARROLLO COGNITIVO: 14 ejes creados a partir de identificadores explícitos en los títulos — expedientes 00061-2026 (piloto Vílchez), 00056-2019, 15471-2023, 02321-2025, 03426-2025, 04873-2024 (AA y PA-TC), 06674-2024, 00615-2023, 29553-2024, 41977-2022, y los casos CASO-02 y CASO-03 Jaén — con 31 enlaces que hacen colgar cada nota de su eje. Los enlaces a ejes son estructurales: agrupan, no razonan. (3) TIPIFICACIÓN automática de todo el grafo. Resultado: 881 → 913 aristas · 640 argumentales · 273 estructurales · 24 con razonamiento declarado · cobertura argumental 3.8%. La operación es idempotente (repetirla no duplica) y aditiva (ninguna arista original desaparece), verificado por pruebas. Los 14 nodos-eje aún no existen como notas en la bóveda: quedan en pendiente_de_ingreso para que el Director los cree.",
+      "pantallas": [
+        "ATHENEA LIVE (grafo reorganizado)",
+        "Brain 360",
+        "Evolution Center"
+      ],
+      "rutas": [],
+      "componentes": [
+        "brain/reorganizador.py",
+        "brain/reorganizador_tests.py",
+        "wallpaper/grafo.json (913 aristas)",
+        "athenea/CONSTITUTION/019 §VIII.4"
+      ]
+    },
+    {
+      "version": "5.3.0-beta",
+      "fecha": "2026-07-24",
+      "cambios": "LEX-OS v2.0 — TIPIFICACIÓN AUTOMÁTICA (Constitución 019 §VIII). Por mandato del Director, el protocolo declara el tipo de cada enlace sin intervención humana, y lo hace sin adivinar jamás: solo asigna conector cuando hay (a) tipo ya declarado por el autor, que se respeta y nunca se sobrescribe; (b) certeza estructural por la cadena documental del propio LEX-OS (TEXTO→FICHA→REGLAS de la misma obra ⇒ DERIVA/ORIGINA), con guardarraíl de núcleo mínimo para que dos obras distintas no se encadenen; o (c) verbo declarado en el texto junto al enlace (aplica, limita, contradice, refuta, confirma…). En cualquier otro caso queda pendiente_tipificacion: PROHIBIDO INVENTAR. Cada arista tipificada registra la regla que la justificó. CORRECCIÓN DE MÉTRICA: los enlaces a nodos de archivo (00 Índice, Conversaciones, Precedentes citados) se clasifican como estructurales — son organización, no razonamiento — y quedan fuera del denominador. Resultado real sobre el grafo: 881 aristas = 242 de archivo + 639 argumentales; 23 tipificadas automáticamente por regla; cobertura argumental 3.6% (antes se reportaba 0% sobre 881, castigando al Brain por enlaces que no deben razonar). Visible en Evolution Center y Brain 360. La compuerta de admisión y la promoción del conocimiento NO se automatizan: siguen siendo humanas (RFC-006). 16/16 pruebas nuevas.",
+      "pantallas": [
+        "Evolution Center (cobertura argumental)",
+        "Brain 360 (argumentales vs archivo)"
+      ],
+      "rutas": [
+        "evolution",
+        "brain360"
+      ],
+      "componentes": [
+        "brain/tipificador.py",
+        "brain/tipificador_tests.py",
+        "wallpaper/grafo.json (881 aristas tipificadas)",
+        "athenea/CONSTITUTION/019_LEX_OS.md §VIII"
+      ]
+    },
+    {
+      "version": "5.2.0-beta",
+      "fecha": "2026-07-24",
+      "cambios": "LEX-OS INCORPORADO A ATHENEA (Constitución 019). El protocolo de ingreso del Director dejó de vivir solo en su celular y en la bóveda: sus CUATRO documentos quedan registrados en el repositorio con su TEXTO ÍNTEGRO y sin una sola alteración (protocolo permanente móvil v1.0, ingreso seguro v1.2, protocolo permanente de conversaciones v1.7 y panel maestro v1.7), en athenea/CONSTITUTION/LEX-OS/. El documento 019 los constitucionaliza: dos modos de ingreso (Modo A, conversaciones guardadas automáticamente e íntegras; Modo B, «SUBIR AL CEREBRO» reservado a documentos), las cinco garantías del ingreso seguro (sin original no hay ingreso completo; huella SHA-256; nada se destruye; literal ≠ íntegro ≠ inferencia; nada se inventa), la clasificación jurisprudencial obligatoria con su base normativa peruana (Art. VII TP NCPCo, Art. 400 CPC, Art. 433 CPP, Art. 40 NLPT, Art. 116 y 112 LOPJ, Ley 31595, Arts. VI y 15 NCPCo), la regla atómica con sus 16 clases y los diez estados de cierre. Incluye tabla de correspondencia LEX-OS↔ATHENEA que demuestra que ambos coinciden en sus prohibiciones fundamentales. AUDITORÍA AL REGISTRAR: se documenta la deriva de versión (conversaciones declara v1.7 pero describe el guardián v1.9) y, sobre todo, la CAUSA DOCUMENTAL de la cobertura 0% de conectores — el protocolo ordena registrar «conexiones» pero no prevé declarar el tipo del enlace; esa constatación es evidencia de la hipótesis H5, cuya confianza sube a 0.60. Integrado en el Libro XXI del MASTER, en el mapa terminológico, en el §5 del EVOLUTION_PATCH v5.1 y en el índice constitucional. El riesgo abierto «PROTOCOLO LEX-OS MÓVIL fuera del repositorio» queda CERRADO en el Evolution Center.",
+      "pantallas": [
+        "Evolution Center (riesgo cerrado)"
+      ],
+      "rutas": [],
+      "componentes": [
+        "athenea/CONSTITUTION/019_LEX_OS.md",
+        "athenea/CONSTITUTION/LEX-OS/ (4 textos íntegros)",
+        "MASTER_ARCHITECT.md (Libro XXI + mapa)",
+        "MASTER_ARCHITECT_EVOLUTION_PATCH_v5.1.md (§5.2)"
+      ]
+    },
+    {
+      "version": "5.1.0-beta",
+      "fecha": "2026-07-24",
+      "cambios": "MASTER_ARCHITECT_EVOLUTION_PATCH_v5.1 — CONSOLIDATED EVOLUTION PATCH. Documento único de arquitectura empresarial que consolida todas las decisiones aprobadas de esta etapa como especificación oficial: portada, índice, 32 capítulos en siete partes (Arquitectura · Patrimonio · Razonamiento · Sistemas de Gestión · Superficie · Modelos y Gobierno · Ejecución), checklist de conformidad de 15 puntos y cinco anexos (glosario de 19 términos, matriz de trazabilidad capítulo→Libro→implementación, matriz de capacidades por marca, tres diagramas y registro de las 15 decisiones consolidadas). Ninguna decisión perdida, ninguna capacidad nueva. CAMBIO OBLIGATORIO ADOPTADO: modelo de capas oficial Organización Jurídica → Brand Layer → ATHENEA Platform → ATHENEA Cognitive Engine → Patrimonio Organizacional → Patrimonio Cognitivo → Knowledge Graph → Servicios Cognitivos → COS. Implementada la Brand Layer real (platform/brand/marcas.json) con las cuatro marcas del mandato: el aplicativo se rotula con la marca activa y el usuario final solo ve la marca de su organización. Regla verificada automáticamente por huella criptográfica de cognition/+brain/: cambiar de marca NO altera un solo byte del Cognitive Engine — nunca se bifurca código ni arquitectura (9/9). MASTER_ARCHITECT actualizado solo en los Libros afectados (VI §5, XXXI §3, mapa terminológico y registro de evolución); integridad revalidada 16/16.",
+      "pantallas": [
+        "Shell (sello de marca activa)"
+      ],
+      "rutas": [],
+      "componentes": [
+        "MASTER_ARCHITECT_EVOLUTION_PATCH_v5.1.md",
+        "platform/brand/marcas.json",
+        "athenea/TESTS/brand_tests.py",
+        "app/build_app.py (marca activa)",
+        "MASTER_ARCHITECT.md (Libros VI, XXXI)"
+      ]
+    },
+    {
+      "version": "5.0.0-beta",
+      "fecha": "2026-07-24",
+      "cambios": "MASTER_ARCHITECT_EVOLUTION_PATCH_v5.0 — CONSOLIDACIÓN OFICIAL. No se creó ningún documento constitucional nuevo ni se rediseñó nada: toda la evolución posterior a la construcción inicial quedó integrada dentro de los Libros que le corresponden. (1) MAPA TERMINOLÓGICO vinculante: cada concepto de la evolución —COS, Plataforma Cognitiva, Organización Jurídica Cognitiva, Patrimonio Organizacional, Patrimonio Cognitivo, Knowledge Graph, Reasoning, Reprocesamiento, Sistemas de Calidad/Impacto/Priorización/Apoyo a la Decisión, Modelos de Valor/Madurez/Operativo, Gobierno y Leyes— queda anclado a su Libro existente, de modo que nombrar algo de otro modo no abra jamás un capítulo duplicado. (2) REGISTRO ÚNICO DE EVOLUCIÓN: las dos secciones de patch se fusionaron en un índice de trazabilidad que no copia contenido, solo dice dónde vive cada capacidad y con qué evidencia. (3) Edición 5.0 declarada en la cabecera. (4) VALIDACIÓN AUTOMÁTICA nueva (athenea/TESTS/master_tests.py, 16/16): 45 Libros exactos, sin numerales duplicados, sin referencias huérfanas, índice completo, vocabulario mapeado, sin secciones de patch sueltas y las tres fronteras intactas. Auditoría previa: cero duplicidades y cero referencias rotas.",
+      "pantallas": [],
+      "rutas": [],
+      "componentes": [
+        "MASTER_ARCHITECT.md (Edición 5.0)",
+        "athenea/TESTS/master_tests.py",
+        "README.md · CHANGELOG.md · VERSION"
+      ]
+    },
+    {
+      "version": "3.2.0-beta",
+      "fecha": "2026-07-24",
+      "cambios": "REASONING TRACE ENGINE (PATCH 3.2): el Brain ya no solo razona, demuestra por qué razonó. Nuevo módulo permanente brain/reasoning_trace.py con los 15 pasos obligatorios de toda inferencia (problema jurídico → hechos → normas → jurisprudencia → doctrina → argumentos → conectores → puentes → cadena → patrones → hipótesis → contradicciones → vacíos → tesis → evidencia): ninguna conclusión puede cerrarse sin traza completa, y el intento falla. Cinco bandas de confianza automáticas (Hipótesis Inicial, Hipótesis Consistente, Línea Argumentativa, Tesis en Desarrollo, Tesis Institucional): jamás se presenta una hipótesis como tesis. Explicabilidad total: qué se usó, qué se DESCARTÓ y por qué, qué contradicciones quedan abiertas (nodo con posición A/B, normas, jurisprudencia e impacto), qué vacíos faltan (con impacto, pregunta derivada, documento requerido y prioridad), nivel de confianza y tiempo de inferencia. Aprendizaje por recalibración: el razonamiento refutado baja, el exitoso sube, y el conocimiento nunca se elimina. Nuevo panel Razonamiento (6.º del Cognitive Evolution Center) y Brain 360 muestra cada conector con tipo/peso/confianza/evidencia y cada puente con su tramo fuerte y débil. PRIMERA TRAZA REAL: expediente piloto CASO-01, 15/15 pasos, 4 contradicciones, 4 vacíos, 3 descartes, confianza 0.72 = Línea Argumentativa. 24/24 pruebas nuevas.",
+      "pantallas": [
+        "Cognitive Evolution Center (panel Razonamiento)",
+        "Brain 360 (atributos de inferencia)"
+      ],
+      "rutas": [
+        "evolution",
+        "brain360"
+      ],
+      "componentes": [
+        "brain/reasoning_trace.py",
+        "brain/trace_tests.py",
+        "RUTA-01",
+        "platform/evolution/",
+        "platform/brainview/",
+        "MASTER_ARCHITECT.md (Libros XVII, XVIII, XXVI, XXVII, XXXIII, XXXV, XLIII)"
+      ]
+    },
+    {
+      "version": "3.1.0-beta",
+      "fecha": "2026-07-24",
+      "cambios": "MASTER_ARCHITECT_EVOLUTION_PATCH 3.1 — integrado, implementado, visualizado y publicado. (1) Conector completo: todo enlace porta tipo, peso, cantidad de evidencia y confianza calculada con rendimiento decreciente y techo 0.99. (2) CADENAS ARGUMENTATIVAS implementadas (Libro XXIV): razonamientos de varios eslabones que heredan la confianza de su tramo más débil y declaran su punto de quiebre. (3) GAP ANALYSIS ENGINE como módulo permanente (brain/gaps.py): las 7 clases de vacío calculadas sobre datos reales, cada una con evidencia exacta, magnitud y pregunta derivada — todo vacío genera línea de investigación. (4) EVOLUTION LOG permanente y solo-agregar con 10 categorías, que declara honestamente los días sin novedad. (5) COGNITIVE EVOLUTION CENTER: nueva pantalla ◈ con cinco paneles vivos (Brain, Investigación, Productos, Grupo SUÁREZ, Evolución ATHENEA), octava vista del aplicativo, todo recalculado en cada publicación. Sin documentos constitucionales nuevos: el MASTER_ARCHITECT se actualizó solo en los Libros afectados (XVII, XXII, XXIV, XXXI, XXXIII, XXXVI, XLIII). 26/26 + 13/13 + 6/6 pruebas.",
+      "pantallas": [
+        "Cognitive Evolution Center (nueva)"
+      ],
+      "rutas": [
+        "evolution"
+      ],
+      "componentes": [
+        "brain/gaps.py",
+        "brain/evolution_log.py",
+        "brain/connectors.py (conector completo + cadenas)",
+        "platform/evolution/",
+        "app/ (8ª vista)",
+        "MASTER_ARCHITECT.md (Libros afectados)"
+      ]
+    },
+    {
+      "version": "3.0.0-beta",
+      "fecha": "2026-07-24",
+      "cambios": "MASTER ARCHITECT COMPLETO: los 45 Libros de la Constitución Técnica Oficial del Grupo SUÁREZ y ATHENEA, desarrollados de corrido por orden del Director. Identidad, filosofía, doctrina y constitución (I-IV); Grupo, ecosistema, modelo de negocio y patrimonio intelectual con su régimen de derechos de autor (V-VIII); ATHENEA, arquitectura, Brain, BOS y CEP (IX-XIII); los seis motores cognitivos (XIV-XIX); objetos, argumentos, conectores, puentes, cadenas argumentativas, patrones, hipótesis, tesis y modelos (XX-XXVIII); investigación, publicaciones y productos (XXIX-XXXI); ATHENEA LIVE, Brain 360, Laboratorio Cognitivo, Dashboard del Director, UX, móvil, desktop y API (XXXII-XXXIX); comercialización, roadmap, implementación, control de calidad, gobierno del Brain y evolución futura (XL-XLV). Cada Libro declara qué existe, qué es parcial y qué no está. Un commit por bloque de Libros: el historial de git es el acta de construcción.",
+      "pantallas": [],
+      "rutas": [],
+      "componentes": [
+        "MASTER_ARCHITECT.md (45 Libros)",
+        "README.md · CHANGELOG.md · VERSION"
+      ]
+    },
+    {
+      "version": "2.8.0-beta",
+      "fecha": "2026-07-24",
+      "cambios": "MASTER ARCHITECT BUILDER — iteración 1. Creado MASTER_ARCHITECT.md, la Constitución Técnica Oficial del Grupo SUÁREZ y ATHENEA: única fuente para el desarrollo futuro, organismo documental vivo que nunca se considera terminado. Incluye jerarquía normativa (no deroga la Constitución: la implementa), protocolo de construcción obligatorio (un Libro por iteración, detenerse y esperar orden) e índice de los 45 Libros con su fuente ya registrada — declarando abiertamente los tres vacíos reales (Cadenas Argumentativas, Laboratorio Cognitivo, API). Desarrollado íntegro el LIBRO I — IDENTIDAD: qué es el Grupo (misión, visión, doctrina), sus 10 instituciones, el Director y sus tres decisiones indelegables, qué es ATHENEA definida por sus cuatro negaciones, qué es el Brain, qué es este repositorio y quién lo construye.",
+      "pantallas": [],
+      "rutas": [],
+      "componentes": [
+        "MASTER_ARCHITECT.md (nuevo)",
+        "README.md · CHANGELOG.md · VERSION"
+      ]
+    },
+    {
+      "version": "2.7.0-beta",
+      "fecha": "2026-07-24",
+      "cambios": "CONECTORES CON SIGNIFICADO Y PUENTES DE RAZONAMIENTO (BOS §IV-V, implementación): nuevo módulo brain/connectors.py con los 13 conectores del BOS y su peso evidencial. Lee tres notaciones sin imponer sintaxis (APLICA:: [[nota]] · [[nota]] — LIMITA · [[nota|DERIVA]]), tolera tildes, nunca inventa un tipo que la nota no declare y sigue leyendo el grafo histórico de pares. Compone Puentes de Razonamiento: inferencias jurídicas de dos tramos tipados con nivel de confianza, admitiendo solo 10 composiciones con sentido jurídico — jamás se infiere desde enlaces mudos. Brain 360 muestra el panel: enlaces con significado, enlaces mudos, cobertura y puentes. Cobertura real hoy: 0% sobre 834 aristas — la capacidad existe, falta que la bóveda declare el razonamiento. 18/18 pruebas.",
+      "pantallas": [
+        "Brain 360 (panel de conectores y puentes)"
+      ],
+      "rutas": [
+        "brain360"
+      ],
+      "componentes": [
+        "brain/connectors.py",
+        "brain/connector_tests.py",
+        "platform/brainview/",
+        "athenea/CONSTITUTION/018 (auditoría actualizada)"
+      ]
+    },
+    {
+      "version": "2.6.0-beta",
+      "fecha": "2026-07-24",
+      "cambios": "BRAIN OPERATING SYSTEM (BOS): registrado el documento constitucional 018 — la identidad del Brain. Declara que el Brain no almacena documentos (son materia prima) sino conocimiento; define 17 clases de Nodo Cognitivo, los 13 conectores con significado (APLICA, DESARROLLA, CONTRADICE, AMPLÍA, LIMITA, DERIVA, FORTALECE, DEBILITA, CONFIRMA, REFUTA, GENERA, INSPIRA, ORIGINA), los Puentes de Razonamiento entre materias, el Nodo de Contradicción (nunca se elimina: se convierte en conocimiento), la ponderación automática (valor, prioridad, peso, confianza), la visualización obligatoria de todo cambio, el reporte diario y la Ley de Evolución. Documento hermano del 017 (CEP): el BOS dice qué es el Brain, el CEP cómo evoluciona. Incluye auditoría honesta: conectores tipados y Puentes quedan como pendientes explícitos porque requieren que el Director defina la notación en la bóveda.",
+      "pantallas": [],
+      "rutas": [],
+      "componentes": [
+        "athenea/CONSTITUTION/018_BRAIN_OPERATING_SYSTEM.md",
+        "athenea/CONSTITUTION/README.md",
+        "athenea/BRAIN/README.md",
+        "README.md · CHANGELOG.md · VERSION"
+      ]
+    },
+    {
+      "version": "2.5.0-beta",
+      "fecha": "2026-07-24",
+      "cambios": "COGNITIVE EVOLUTION PROTOCOL (CEP): registrado el documento constitucional 017 — el sistema operativo del Brain. Define nacimiento y arquitectura cognitiva, fuentes oficiales, 19 motores (ingesta → extracción → valor → promoción → relaciones → contradicciones → vacíos → conectividad → síntesis → hipótesis → tesis → investigación → publicaciones → productos → evolución del Grupo y de ATHENEA), el Reporte Diario del Director, el Dashboard Cognitivo, los índices IVC/Descubrimiento/Conectividad, el Modelo de Madurez, el régimen del Patrimonio Intelectual y las 5 leyes (Autoaprendizaje, Descubrimiento, Investigación Permanente, Productos, Comercialización). Integrado con la Constitución 016/001, el Brain, RFC-006 (promoción humana) y RFC-009 (ATHENEA nunca decide). Índices y referencias actualizados en todo el repositorio.",
+      "pantallas": [],
+      "rutas": [],
+      "componentes": [
+        "athenea/CONSTITUTION/017_COGNITIVE_EVOLUTION_PROTOCOL.md",
+        "athenea/CONSTITUTION/README.md (índice)",
+        "athenea/ENGINES/CATALOG.md",
+        "athenea/EVOLUTION/README.md",
+        "README.md · CHANGELOG.md · VERSION"
+      ]
+    },
+    {
+      "version": "2.4.0-beta",
+      "fecha": "2026-07-23",
+      "cambios": "FASES 2+3: nueva vista ◉ Brain 360 con Visualización del Cerebro (objetos por clase, hubs, clusters, timeline, aprendizaje), Dashboard de Modelos Cognitivos (madurez, casos, reutilización, evolución) y Brain Health (calidad, crecimiento, duplicidad, integridad, cobertura, tendencia) — todo computado desde el grafo real. Seis temas visuales seleccionables en Configuración que tiñen todas las pantallas. Sistema Editorial con aprobación del Director (PUB-A-001 pendiente de firma). ATHENEA LIVE y Distribución ya existían (Command Center, Release Center, LATEST.json) — auditados, no reconstruidos.",
+      "pantallas": [
+        "Brain 360 (nueva)",
+        "Configuración (temas visuales)"
+      ],
+      "rutas": [
+        "brain360"
+      ],
+      "componentes": [
+        "platform/brainview/",
+        "app shell (paletas + nav)"
+      ]
+    },
+    {
+      "version": "2.3.0-beta",
+      "fecha": "2026-07-23",
+      "cambios": "LITIGATION COMMAND CENTER: nueva pantalla de aterrizaje única con los 12 bloques del mandato ordenados por prioridad (Crítico→Urgente→Importante→Normal). La Mesa de Decisión tiene prioridad absoluta y aparece primero. Comprensible en menos de 30 segundos, sin navegar entre módulos.",
+      "pantallas": [
+        "Command Center (nueva, aterrizaje por defecto)"
+      ],
+      "rutas": [
+        "command"
+      ],
+      "componentes": [
+        "platform/command/ (build_command.py, command.json, template)",
+        "app shell (nav + aterrizaje)"
+      ]
+    },
+    {
+      "version": "2.1.0-beta",
+      "fecha": "2026-07-23",
+      "cambios": "Gobierno cognitivo completo: Constitución v10 registrada; 16 clases de Objetos Cognitivos (principios, organizaciones, hipótesis, líneas de tiempo, respuestas, razonamiento ATHENEA); Cognitive Control de 7 niveles en toda incorporación; estados constitucionales del conocimiento (observado→hipótesis→sustentado→validado→institucional, con deprecación trazable y recalibración por realidad).",
+      "pantallas": [],
+      "rutas": [],
+      "componentes": [
+        "brain/ (dominio de gobierno)",
+        "athenea/ (constitución + RFC)"
+      ]
+    },
+    {
+      "version": "2.0.0-beta",
+      "fecha": "2026-07-23",
+      "cambios": "UNA SOLA APLICACIÓN: el ícono ATHENEA abre la app completa en todas las plataformas; el fondo dinámico pasa a ser capacidad opcional activable desde Configuración (nueva sección: pantalla dinámica, frecuencia de actualización, fuente de contenido, tema claro/oscuro/auto).",
+      "pantallas": [
+        "Configuración (nueva)",
+        "Shell"
+      ],
+      "rutas": [
+        "config"
+      ],
+      "componentes": [
+        "MainActivity (APK abre la app)",
+        "bootstrap-app.html",
+        "manifest Android (wallpaper opcional)",
+        "instalar-athenea.bat unificado",
+        "athenea.apk"
+      ]
+    },
+    {
+      "version": "1.3.0-beta",
+      "fecha": "2026-07-23",
+      "cambios": "ATHENEA instalable como app: manifest + service worker + íconos. Chrome ofrece 'Instalar aplicación'; funciona offline y a pantalla completa con ícono propio.",
+      "pantallas": [
+        "Todas"
+      ],
+      "rutas": [
+        "/manifest.json",
+        "/sw.js"
+      ],
+      "componentes": [
+        "manifest.json",
+        "sw.js",
+        "icon-192/512.png",
+        "app_template.html",
+        "pages.yml"
+      ]
+    },
+    {
+      "version": "1.2.0-beta",
+      "fecha": "2026-07-23",
+      "cambios": "ATHENEA en producción: URL pública real en GitHub Pages. El aplicativo completo (Inicio, Dossier, Cerebro, Release Center) y el Cerebro (/cerebro.html) se publican automáticamente en cada push.",
+      "pantallas": [
+        "Todas (ahora con URL pública)"
+      ],
+      "rutas": [
+        "/",
+        "/cerebro.html"
+      ],
+      "componentes": [
+        ".github/workflows/pages.yml"
+      ]
+    },
+    {
+      "version": "1.1.1-beta",
+      "fecha": "2026-07-22",
+      "cambios": "Discovery integral del stack (vanilla, cero frameworks, cero dependencias externas) y auditoría completa: 6 suites de pruebas en verde. Corregido el aislamiento de brain_tests (los HTML generados no cuentan como modificaciones).",
+      "pantallas": [],
+      "rutas": [],
+      "componentes": [
+        "platform/brain/brain_tests.py (aislamiento)",
+        "app/release.json"
+      ]
+    },
+    {
+      "version": "1.1.0-beta",
+      "fecha": "2026-07-22",
+      "cambios": "Release Center: nueva sección permanente con versión, plataformas, enlaces, roadmap y changelog.",
+      "pantallas": [
+        "Release Center (nueva)"
+      ],
+      "rutas": [
+        "#release"
+      ],
+      "componentes": [
+        "release.json (manifiesto)",
+        "release_template.html",
+        "build_app.py (compone la vista)"
+      ]
+    },
+    {
+      "version": "1.0.1-beta",
+      "fecha": "2026-07-22",
+      "cambios": "Auto-actualización del aplicativo: busca su última versión publicada y se reemplaza solo; sello de versión visible.",
+      "pantallas": [
+        "Shell"
+      ],
+      "rutas": [],
+      "componentes": [
+        "app_template.html (fetch + sello)"
+      ]
+    },
+    {
+      "version": "1.0.0-beta",
+      "fecha": "2026-07-22",
+      "cambios": "PRODUCT CONSOLIDATION: las 3 pantallas aprobadas en un solo aplicativo con navegación unificada y tema único.",
+      "pantallas": [
+        "Inicio",
+        "Dossier",
+        "Cerebro"
+      ],
+      "rutas": [
+        "inicio",
+        "dossier",
+        "cerebro"
+      ],
+      "componentes": [
+        "app/athenea-app.html",
+        "build_app.py",
+        "tests_app.py",
+        "workflow release"
+      ]
+    }
+  ]
+}
